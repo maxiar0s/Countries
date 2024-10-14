@@ -29,15 +29,18 @@ const App = () => {
   };
 
   return (
-    <div
-      id="app"
-      className="card text-center w-50 mx-auto font-monospace  shadow-lg mt-3"
-    >
-      <SearchFilter search={search} handleChange={handleChange} />
-      <Filtered
-        filteredCountries={filteredCountries}
-        handleClick={handleClick}
-      />
+    <div className=" ">
+      <div
+        id="app"
+        className="container text-center rounded font-monospace shadow-lg mt-3 pt-1"
+        style={{ maxWidth: "600px" }}
+      >
+        <SearchFilter search={search} handleChange={handleChange} />
+        <Filtered
+          filteredCountries={filteredCountries}
+          handleClick={handleClick}
+        />
+      </div>
     </div>
   );
 };

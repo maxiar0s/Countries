@@ -1,15 +1,14 @@
 const SearchFilter = ({ search, handleChange }) => {
   return (
     <div className="">
-      <p
-        id="search"
-        className="card-header shadow-sm text-light p-3 b rounded fs-5 text-center"
-      >
+      <p id="search" className="mt-3 shadow text-light p-3 b rounded fs-4 ">
         <strong>FIND COUNTRIES</strong>
       </p>
       <input
-        className=" w-50 text-center mt-4 mb-4 rounded shadow-sm"
+        id="search-input"
+        className="text-center mt-2 mb-3 rounded shadow-sm p-1 fs-5 border-1 border-dark"
         type="text"
+        placeholder="Search "
         onChange={handleChange}
         value={search}
       />
