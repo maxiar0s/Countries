@@ -32,7 +32,7 @@ const App = () => {
     <div className=" ">
       <div
         id="app"
-        className="container text-center rounded font-monospace shadow-lg mt-3 pt-1"
+        className="container text-center rounded font-monospace shadow-lg mt-3 pt-1 mb-3"
         style={{ maxWidth: "600px" }}
       >
         <SearchFilter search={search} handleChange={handleChange} />
