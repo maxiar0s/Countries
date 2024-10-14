@@ -1,7 +1,10 @@
 const SearchFilter = ({ search, handleChange }) => {
   return (
     <div className="">
-      <p id="search" className="card-header shadow-sm text-light p-3 b rounded">
+      <p
+        id="search"
+        className="card-header shadow-sm text-light p-3 b rounded fs-5 text-center"
+      >
         <strong>FIND COUNTRIES</strong>
       </p>
       <input
