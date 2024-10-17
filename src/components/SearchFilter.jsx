@@ -6,7 +6,7 @@ const SearchFilter = ({ search, handleChange }) => {
       </p>
       <input
         id="search-input"
-        className="text-center mt-2 mb-3 rounded shadow-sm p-1 fs-5 border-1 border-dark"
+        className="input-group-form text-center mt-2 mb-3 rounded shadow-sm p-1 fs-5 border-1 border-secondary"
         type="text"
         placeholder="Search "
         onChange={handleChange}
